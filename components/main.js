@@ -9,13 +9,6 @@ import {fetchUser, fetchUserDailyBlog} from '../redux/actions/index'
 import FeedScreen from './main/BlogFeed';
 import ProfileScreen from './main/Profile';
 import { NavigationContainer } from '@react-navigation/native';
-import {
-    AdMobBanner,
-    AdMobInterstitial,
-    PublisherBanner,
-    AdMobRewarded,
-    setTestDeviceIDAsync,
-  } from 'expo-ads-admob';
 import BlogFeed from './main/BlogFeed';
   
 
@@ -59,11 +52,6 @@ export class main extends Component {
                         )
                     }} />
             </Tab.Navigator>
-            {/*<AdMobBanner
-  bannerSize="fullBanner"
-  adUnitID="ca-app-pub-1254577763523465/9863077491 " // Test ID, Replace with your-admob-unit-id
-  servePersonalizedAds // true or false
-  onDidFailToReceiveAdWithError={this.bannerError} />*/}
   </>
         )
     }
