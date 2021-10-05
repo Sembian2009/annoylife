@@ -4,13 +4,13 @@ import firebase from 'firebase/app';
 //android-banner interstrial : ca-app-pub-1254577763523465/8072511347
 //android-banner ads : ca-app-pub-1254577763523465/1096039456
 const firebaseConfig = {
-  apiKey: "AIzaSyDHKn1XQ7Epqhf8K2d2V42vA-YzlWSIOno",
-  authDomain: "annoylife.firebaseapp.com",
-  projectId: "annoylife",
-  storageBucket: "annoylife.appspot.com",
-  messagingSenderId: "809485695432",
-  appId: "1:809485695432:web:c313088438a817b8daa8fd",
-  measurementId: "G-V82VS64520"
+  apiKey: "addApiKeyHere",
+  authDomain: "addAuthDomainHere",
+  projectId: "addProjectIdHere",
+  storageBucket: "addBucketLinkHere",
+  messagingSenderId: "addSenderIdHere",
+  appId: "addAppIdHere",
+  measurementId: "addNeasurementIdHere"
 };
 
 if (firebase.apps.length === 0) {
